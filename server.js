@@ -26,7 +26,8 @@ app.use('/users', userRouter);
 app.use('/stoicQuotes', stoicQuotesRouter)
 
 
-app.listen(PORT, () =>{
-    console.log(`you are listening on port https://localhost:${PORT}`)
-})
+// app.listen(PORT, () =>{
+//     console.log(`you are listening on port https://localhost:${PORT}`)
+// })
 
+export default app
