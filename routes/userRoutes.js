@@ -9,7 +9,7 @@ import {
   deleteUser,
 } from '../controllers/userControllers.js';
 
-import { signup, login, logout } from '../controllers/authController.js'; // Adjust the path as per your structure and make sure to add .js extension
+import { signup, login, logout } from '../api/controllers/authController.js'; // Adjust the path as per your structure and make sure to add .js extension
 import isUserLoggedIn from '../utils/auth.js'; // Adjust the path as necessary
 
 

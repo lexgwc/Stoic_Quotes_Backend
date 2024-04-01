@@ -1,4 +1,4 @@
-import { StoicQuote } from '../models/StoicQuote.js';
+import { StoicQuote } from '../api/models/StoicQuote.js';
 
 export const getAllQuotes = async (req, res) => {
   try {
