@@ -1,9 +1,9 @@
 import 'dotenv/config.js'
-import './api/config/database.js'
+import './config/database.js'
 import cors from 'cors'
 import express from 'express'
-import userRouter from './api/routes/userRoutes.js'
-import stoicQuotesRouter from './api/routes/stoicQuotesRoutes.js'
+import userRouter from './routes/userRoutes.js'
+import stoicQuotesRouter from './routes/stoicQuotesRoutes.js'
 import morgan from 'morgan'
 import cookieParser from 'cookie-parser';
 
