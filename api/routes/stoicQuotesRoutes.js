@@ -5,7 +5,7 @@ import {
   createQuote,
   updateQuote,
   deleteQuote,
-} from '../api/controllers/stoicQuotesControllers.js';
+} from '../controllers/stoicQuotesControllers.js';
 
 const router = express.Router();
 
