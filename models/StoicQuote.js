@@ -8,22 +8,6 @@ const stoicQuoteSchema = new mongoose.Schema({
   author: {
     type: String,
     required: true
-  },
-  image: {
-    type: String,
-    required: false
-  },
-  year: {
-    type: Number,
-    required: false
-  },
-  country: {
-    type: String,
-    required: false
-  },
-  source: {
-    type: String,
-    required: false
   }
 });
 
