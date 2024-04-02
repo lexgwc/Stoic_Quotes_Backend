@@ -27,4 +27,6 @@ const stoicQuoteSchema = new mongoose.Schema({
   }
 });
 
-export const StoicQuote = mongoose.model('StoicQuote', stoicQuoteSchema);
+const StoicQuote = mongoose.model('StoicQuote', stoicQuoteSchema);
+
+export default StoicQuote;
